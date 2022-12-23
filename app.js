@@ -7,6 +7,6 @@ function set_dark() {
 }
 function set_light() {
     colorChange.style.setProperty('--dark', 'black');
-    colorChange.style.setProperty('--light', '#f1f1f1');
-    colorChange.style.setProperty('--lightGray', '#555');
+    colorChange.style.setProperty('--light', '#B4AEA8');
+    colorChange.style.setProperty('--lightGray', '#333');
 }

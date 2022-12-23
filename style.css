@@ -8,11 +8,17 @@ html,body{
 }
 :root{
     --dark: black;
-    --light: #f1f1f1;
-    --lightGray:#555;
+    --light: #B4AEA8;
+    --lightGray:#333;
 }
 
 /*? -------------------------------------------- */
+.all{
+    font-family: 'PT Mono', monospace;
+}
+section{
+    font-family: 'Noto Sans Mono', monospace;
+}
 
 .pr{
     color: var(--dark);
@@ -119,7 +125,7 @@ html,body{
     padding: 3rem 5rem;
 }
 .third-h2{
-    color: #555;
+    color: var(--lightGray);
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
@@ -155,7 +161,7 @@ html,body{
     padding: 3rem 5rem;
 }
 .fourth-h2{
-    color: #555;
+    color: var(--lightGray);
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
