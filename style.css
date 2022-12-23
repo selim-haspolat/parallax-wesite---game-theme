@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%
+}
+:root{
+    --dark: black;
+    --light: #f1f1f1;
+    --lightGray:#555;
+}
+
+/*? -------------------------------------------- */
+
+.pr{
+    color: var(--dark);
+}
+.container-1{
+    background-image: url(https://wallpaperaccess.com/full/82444.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.main-header{
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    outline: 0.5rem outset #342d19;
+    background-color: #a69984bb;
+    color: white;
+    outline-offset: 1rem;
+    border-radius: 2rem 0;
+    padding: 1.5rem 2rem;
+}
+.main-section{
+    background-color: var(--light);
+    text-align: center;
+    font-weight: 400;
+    padding: 3rem 5rem;
+}
+.gray-span{
+    color: var(--lightGray);
+    font-weight: 900;
+}
+.main-h2{
+    color: var(--lightGray);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/*? -------------------------------------------- */
+
+.container-2{
+    background-image: url(https://wallpaper.dog/large/5550998.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.second-header img{
+    width: 800px;
+}
+.second-section{
+    background-color: var(--light);
+    text-align: center;
+    font-weight: 400;
+    padding: 3rem 5rem;
+}
+.second-h2{
+    color: var(--lightGray);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.red{
+    color: red;
+}
+.blu{
+    color: blue;
+}
+
+/*? -------------------------------------------- */
+
+.container-3{
+    background-image: url(https://images.gamebanana.com/img/ss/mods/58978c4966b45.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.third-header{
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    /* outline: 0.5rem inset #424242; */
+    outline: 0.5rem outset #342d19;
+    background-color: #a69984bb;
+    outline-offset: 0.4rem;
+    /* background-color: #212121be; */
+    color: white;
+    border-radius: 2rem 0;
+    padding: 1.5rem 2rem;
+}
+.third-section{
+    background-color: var(--light);
+    text-align: center;
+    font-weight: 400;
+    padding: 3rem 5rem;
+}
+.third-h2{
+    color: #555;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/*? -------------------------------------------- */
+
+
+.container-4{
+    background-image: url(https://adrenaline.com.br/uploads/chamadas/team-fortress-2-pico-jogadores-2021-capa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.fourth-header{
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    outline: 0.5rem outset #342d19;
+    background-color: #a69984bb;
+    outline-offset: 0.4rem;
+    color: white;
+    border-radius: 2rem 0;
+    padding: 1.5rem 2rem;
+}
+.fourth-section{
+    background-color: var(--light);
+    text-align: center;
+    font-weight: 400;
+    padding: 3rem 5rem;
+}
+.fourth-h2{
+    color: #555;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/*? -------------------------------------------- */
+
+
+.container-5{
+    background-image: url(https://preview.redd.it/3j8q1obkp2q71.png?auto=webp&s=349e195ae1e8321361ff5454e4eaa44be3f0120e);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.end-header{
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    outline: 0.5rem outset #342d19;
+    background-color: #a69984bb;
+    outline-offset: 1rem;
+    color: white;
+    border-radius: 2rem 0;
+    padding: 1.5rem 2rem;
+}
+
+/*? -------------------------------------------- */
+
+
+.div-button{
+    background-image: url(https://preview.redd.it/3j8q1obkp2q71.png?auto=webp&s=349e195ae1e8321361ff5454e4eaa44be3f0120e);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.button{
+    padding: 10px;
+    border-radius: 0 20px 20px 0 ;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.one{
+    color: white;
+    background-color: black;
+    position: fixed;
+    top: 100px;
+    left: -8px;
+}
+.two{
+    color: black;
+    background-color: white;
+    position: fixed;
+    top: 137px;
+    left: -8px;
+}
+.button:active{
+    left: 0;
+}
+.button:hover{
+    width: 80px;
+}
