@@ -206,6 +206,7 @@ section{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 .button{
     padding: 10px;
