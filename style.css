@@ -109,11 +109,9 @@ section{
 .third-header{
     font-size: 3rem;
     letter-spacing: 0.5rem;
-    /* outline: 0.5rem inset #424242; */
     outline: 0.5rem outset #342d19;
     background-color: #a69984bb;
     outline-offset: 0.4rem;
-    /* background-color: #212121be; */
     color: white;
     border-radius: 2rem 0;
     padding: 1.5rem 2rem;
